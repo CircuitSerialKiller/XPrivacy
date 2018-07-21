@@ -1,4 +1,4 @@
-# built application files
+#built application files
 *.apk
 *.ap_
 
@@ -11,13 +11,44 @@
 # generated files
 bin/
 gen/
+/app/build
+build/
+/build
 
 # Local configuration file (sdk path, etc)
 local.properties
 
-# Eclipse project files
-#.classpath
-.project
+# Windows thumbnail db
+Thumbs.db
+
+# OSX files
+.DS_Store
 
 #proguard
 proguard/
+
+
+# Android Studio
+*.iml
+.idea
+#.idea/workspace.xml - remove # and delete .idea if it better suit your needs.
+.gradle
+build/
+.navigation
+captures/
+output.json 
+
+#mist
+*.iml
+*.iws
+*.ipr
+.idea/
+.gradle/
+local.properties
+*/build/
+*~
+*.swp
+
+#NDK
+obj/
+.externalNativeBuild
