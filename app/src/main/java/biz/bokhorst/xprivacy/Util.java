@@ -197,8 +197,6 @@ public class Util {
 	}
 
 	public static String hasProLicense(Context context) {
-		return "Test License";
-		/*
 		try {
 			// Get license
 			String[] license = getProLicenseUnchecked();
@@ -230,7 +228,7 @@ public class Util {
 			Util.bug(null, ex);
 		}
 		return null;
-		*/
+
 	}
 
 	@SuppressLint("NewApi")
